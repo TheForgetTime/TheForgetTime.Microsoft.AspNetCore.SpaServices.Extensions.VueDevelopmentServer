@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <PackageId>TheForgetTime.Microsoft.AspNetCore.SpaServices.Extensions.VueDevelopmentServer</PackageId>
+        <Authors>TheForgetTime</Authors>
+        <PackageTags>spa vue</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Product>Microsoft.AspNetCore.SpaServices.Extensions.VueDevelopmentServer</Product>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <FileVersion>1.0.1</FileVersion>
+        <NeutralLanguage>zh-CN</NeutralLanguage>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>/home/auser/.dotnet/keys/sign.snk</AssemblyOriginatorKeyFile>
+        <PublicSign>false</PublicSign>
+        <DelaySign>true</DelaySign>
+        <PackageVersion>1.0.1</PackageVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\Microsoft.AspNetCore.SpaServices.VueDevelopmentServer.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\..\..\.dotnet\keys\sign.snk">
+        <Link>sign.snk</Link>
+      </None>
+    </ItemGroup>
+
+</Project>

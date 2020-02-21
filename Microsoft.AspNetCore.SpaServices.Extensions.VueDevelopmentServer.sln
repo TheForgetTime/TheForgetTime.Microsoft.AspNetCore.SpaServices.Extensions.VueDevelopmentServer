@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueTest", "VueTest\VueTest.csproj", "{4E6CF070-50E4-416E-A3AD-6AC23150DCA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNetCore.SpaServices.VueDevelopmentServer", "Microsoft.AspNetCore.SpaServices.VueDevelopmentServer\Microsoft.AspNetCore.SpaServices.VueDevelopmentServer.csproj", "{019C8B03-8004-45C4-A792-A0A6AA47D0E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E6CF070-50E4-416E-A3AD-6AC23150DCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6CF070-50E4-416E-A3AD-6AC23150DCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6CF070-50E4-416E-A3AD-6AC23150DCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6CF070-50E4-416E-A3AD-6AC23150DCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019C8B03-8004-45C4-A792-A0A6AA47D0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019C8B03-8004-45C4-A792-A0A6AA47D0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019C8B03-8004-45C4-A792-A0A6AA47D0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019C8B03-8004-45C4-A792-A0A6AA47D0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
