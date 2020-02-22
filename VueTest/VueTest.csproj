@@ -20,18 +20,6 @@
         <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
     </ItemGroup>
 
-    <ItemGroup>
-      <_ContentIncludedByDefault Remove="wwwroot\index.html" />
-      <_ContentIncludedByDefault Remove="wwwroot\static\css\app.da5d1a17ee08720210973e32118fb47a.css" />
-      <_ContentIncludedByDefault Remove="wwwroot\static\css\app.da5d1a17ee08720210973e32118fb47a.css.map" />
-      <_ContentIncludedByDefault Remove="wwwroot\static\js\app.83407ba0e851916734c9.js" />
-      <_ContentIncludedByDefault Remove="wwwroot\static\js\app.83407ba0e851916734c9.js.map" />
-      <_ContentIncludedByDefault Remove="wwwroot\static\js\manifest.2ae2e69a05c33dfc65f8.js" />
-      <_ContentIncludedByDefault Remove="wwwroot\static\js\manifest.2ae2e69a05c33dfc65f8.js.map" />
-      <_ContentIncludedByDefault Remove="wwwroot\static\js\vendor.fadff9381cead03cf181.js" />
-      <_ContentIncludedByDefault Remove="wwwroot\static\js\vendor.fadff9381cead03cf181.js.map" />
-    </ItemGroup>
-
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
         <!-- Ensure Node.js is installed -->
         <Exec Command="node --version" ContinueOnError="true">
